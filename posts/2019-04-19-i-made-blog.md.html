@@ -1,0 +1,153 @@
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>블로그를 만들었다 - Kernelgarden</title>
+
+    <link rel="stylesheet" href="/assets/css/bootstrap.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
+
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <!-- <h1><a href="/">Kernelgarden</a></h1> -->
+    <!-- <p>TODO: Add site description</p> -->
+    
+<!-- Static navbar -->
+<div class="navbar navbar-inverse navbar-static-top">
+    <div class="container">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/about.html">Kernelgarden</a>
+    </div>
+    <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/posts"">Blog</a></li>
+        <li><a href="/resume.html">Resume</a></li>
+        </ul>
+    </div><!--/.nav-collapse -->
+    </div>
+</div>
+
+    <div class="main-contents">
+      
+<!--
+<h1>블로그를 만들었다</h1>
+<p>Posted on Friday, 19 Apr 2019 by kernelgarden</p>
+
+  <p>Tags:</p>
+  <ul>
+    
+      <li><a href="/tags/diary">diary</a></li>
+    
+      <li><a href="/tags/elixir">elixir</a></li>
+    
+  </ul>
+
+<p>블로그가 필요해서 템플릿 엔진을 찾고 있었는데, <a href="https://github.com/Dalgona">dalgona</a>님이 만드신 <a href="https://github.com/Dalgona/Serum">Serum</a>을 알게되었다.
+최근 elixir를 사용해서 프로젝트를 진행하고 있었던터라 Serum을 사용해서 블로그를 만들었다.
+나는 가이드 문서가 있는지 모르고 코드를 분석해보면서 만들었는데, 이럴수가.. 다 만들고 보니 친절하게 써져있는 <a href="https://dalgona.github.io/Serum/">문서</a>가 있었다!</p>
+<p>다른 템블릿 엔진과 비슷하게 사용할 수 있어서 만드는데 어려움은 없었던 것 같다.
+다만 회사 컴퓨터에서 로컬 서버를 띄우는데 문제가 발생했다.
+로컬 서버를 띄우는 코드에서 OS의 temporary 디렉터리를 접근을 못하는 문제였는데, 회사 컴퓨터가 Windows이라 발생하는 것 같았다.
+해당 현상을 고친 후 <a href="https://github.com/Dalgona/Serum/pull/32">PR</a>을 날렸다.
+jekyll이나 hexo 같은 엔진에서 처럼 공개된 테마가 없기 때문에 내가 직접 테마를 꾸며서 만들었다.
+나는 디자인 감이 없다고 생각하는데 생각보다 잘 뽑은 것 같다.</p>
+<p>다른 엔진을 써서 만들었으면 만들어두고 포스팅을 안했을 것 같은데, 만드는 과정이 재밌어서 당장 포스팅을 쓰고 싶어져서 포스팅을 해본다.</p>
+<p>Thanks you <a href="https://github.com/Dalgona">dalgona</a>!</p>
+
+-->
+
+<div id="white">
+    <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2">
+        <p><bd>Friday, 19 Apr 2019</bd></p>
+        <h4>블로그를 만들었다</h4>
+        <p>블로그가 필요해서 템플릿 엔진을 찾고 있었는데, <a href="https://github.com/Dalgona">dalgona</a>님이 만드신 <a href="https://github.com/Dalgona/Serum">Serum</a>을 알게되었다.
+최근 elixir를 사용해서 프로젝트를 진행하고 있었던터라 Serum을 사용해서 블로그를 만들었다.
+나는 가이드 문서가 있는지 모르고 코드를 분석해보면서 만들었는데, 이럴수가.. 다 만들고 보니 친절하게 써져있는 <a href="https://dalgona.github.io/Serum/">문서</a>가 있었다!</p>
+<p>다른 템블릿 엔진과 비슷하게 사용할 수 있어서 만드는데 어려움은 없었던 것 같다.
+다만 회사 컴퓨터에서 로컬 서버를 띄우는데 문제가 발생했다.
+로컬 서버를 띄우는 코드에서 OS의 temporary 디렉터리를 접근을 못하는 문제였는데, 회사 컴퓨터가 Windows이라 발생하는 것 같았다.
+해당 현상을 고친 후 <a href="https://github.com/Dalgona/Serum/pull/32">PR</a>을 날렸다.
+jekyll이나 hexo 같은 엔진에서 처럼 공개된 테마가 없기 때문에 내가 직접 테마를 꾸며서 만들었다.
+나는 디자인 감이 없다고 생각하는데 생각보다 잘 뽑은 것 같다.</p>
+<p>다른 엔진을 써서 만들었으면 만들어두고 포스팅을 안했을 것 같은데, 만드는 과정이 재밌어서 당장 포스팅을 쓰고 싶어져서 포스팅을 해본다.</p>
+<p>Thanks you <a href="https://github.com/Dalgona">dalgona</a>!</p>
+
+        <br>
+        <p><bt>TAGS: 
+        
+          <a class="tag-btn" href="/tags/diary">diary</a>
+        
+          <a class="tag-btn" href="/tags/elixir">elixir</a>
+        
+        </p>
+        <hr>
+        <p><a href="#" onClick="history.go(-1)"># Back</a></p>
+      </div>
+
+    </div><!-- /row -->
+    </div> <!-- /container -->
+</div><!-- /white -->
+    </div>
+
+    
+<!-- +++++ Footer Section +++++ -->
+	
+<div id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+            <h4>Contacts</h4>
+            <p>
+                Phone: +82 10 2949 0667<br/>
+                Mail: kernelgarden@gmail.com
+            </p>
+            </div><!-- /col-lg-4 -->
+            
+            <div class="col-lg-4">
+            <h4>My Links</h4>
+            <p>
+                <a href="https://github.com/kernelgarden">Github</a><br/>
+            </p>
+            </div><!-- /col-lg-4 -->
+            
+            <div class="col-lg-4">
+            <h4>About Jung Won Ryu</h4>
+            <p>I'm a developer who like alchohol and music. And I'm also interested in distributed computing and network.</p>
+            </div><!-- /col-lg-4 -->
+        
+        </div>
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 centered">
+            <span>This website was generated by <a href="https://dalgona.github.io/Serum/">Serum</a>.</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/bootstrap.min.js"></script>
+  </body>
+</html>
